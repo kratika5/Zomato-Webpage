@@ -5,18 +5,22 @@
 
 body {
   font-family: 'Merriweather', serif;
-  background-color: #f9fafc;
+  background-color: #ebf2ff;
 }
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+ background-color: #fff;
+height: 100px;
+
+
 }
 
 .nav__brand {
   width: 100px;
+
 }
 
 .nav__logo {
@@ -34,11 +38,3 @@ body {
   border-radius: 6px;
   font-weight: 600;
 }
-
-@media (min-width: 768px) {
-    .navbar
-    {
-      justify-content: space-around;
-      padding: 10px 30px;
-    }
-  }
